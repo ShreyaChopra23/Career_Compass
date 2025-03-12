@@ -1,130 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Compass</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-        h1, h2, h3 { color: #333; }
-        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
-    </style>
-</head>
-<body>
-    <h1>Career Compass</h1>
-    <p>An AI-powered Career Mapping Tool designed to help undergraduate tech students explore and identify the right career path engagingly and interactively.</p>
+# Career Compass
 
-    <h2>Features</h2>
-    <h3>1. AI-Powered Career Guidance</h3>
-    <ul>
-        <li>Live AI video consultations</li>
-        <li>Personalized career recommendations</li>
-        <li>Skills gap analysis</li>
-        <li>Interactive Q&A with AI career advisor</li>
-    </ul>
+## Overview
+Career Compass is an AI-powered Career Mapping Tool designed to assist undergraduate tech students in exploring and identifying the right career path through an engaging and interactive platform.
 
-    <h3>2. In-Depth Career Insights</h3>
-    <ul>
-        <li>Detailed exploration of tech career paths:</li>
-        <ul>
-            <li>Software Development</li>
-            <li>Data Analytics</li>
-            <li>Data Science</li>
-            <li>Machine Learning</li>
-            <li>DevOps</li>
-        </ul>
-        <li>Learning roadmaps for each career path</li>
-        <li>Required skills analysis</li>
-        <li>Market trends and opportunities</li>
-    </ul>
+## Features
+### 1. AI-Powered Career Guidance
+- Live AI video consultations
+- Personalized career recommendations
+- Skills gap analysis
+- Interactive Q&A with an AI career advisor
 
-    <h2>Getting Started</h2>
-    <h3>Prerequisites</h3>
-    <ul>
-        <li>Python 3.8 or higher</li>
-        <li>Node.js & npm</li>
-        <li>MongoDB installed and running</li>
-    </ul>
+### 2. In-Depth Career Insights
+- Exploration of various tech career paths:
+  - Software Development
+  - Data Analytics
+  - Data Science
+  - Machine Learning
+  - DevOps
+  - And more...
+- Learning roadmaps for each career path
+- Required skills analysis
+- Market trends and opportunities
 
-    <h3>Installation Packages Required</h3>
-    <ul>
-        <li><strong>Node.js dependencies:</strong> express, MongoDB, mongoose, body-parser, ejs, nodemon</li>
-        <li><strong>Python dependencies:</strong> pandas, scikit-learn, flask</li>
-    </ul>
+## Installation and Setup
 
-    <h2>Installation</h2>
-    <p><strong>1. Clone the repository:</strong></p>
-    <pre>git clone [repository-url]
-cd Career_Compass</pre>
+### Prerequisites
+- **Node.js** (for backend services)
+- **Python 3.8 or higher**
+- **MongoDB** (for data storage)
+- **pip** (Python package manager)
 
-    <p><strong>2. Start the Node.js server:</strong></p>
-    <pre>cd Login
-npm install  # Install dependencies
-npm run dev  # Start the Node.js server</pre>
+### Installation Steps
+#### Setting up the Node.js Backend
+1. Navigate to the backend folder:
+   ```bash
+   cd Login
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-    <p><strong>3. Start the Python recommendation server:</strong></p>
-    <pre>cd recommendation
-pip install pandas scikit-learn flask  # Install required Python packages
-python app.py  # Start the Python server</pre>
+#### Setting up the Python Recommendation System
+1. Navigate to the recommendation system folder:
+   ```bash
+   cd recommendation
+   ```
+2. Install required dependencies:
+   ```bash
+   pip install pandas scikit-learn flask
+   ```
+3. Start the Flask server:
+   ```bash
+   python app.py
+   ```
 
-    <p><strong>4. Set up environment variables:</strong></p>
-    <pre>Create a .env file in the root directory and add:
-GEMINI_API_KEY=your_api_key_here</pre>
+## Usage
+1. **Profile Setup**
+   - Complete your personal profile.
+   - Share your educational background.
+   - Describe your technical experience.
 
-    <p><strong>5. Run the application:</strong></p>
-    <pre>streamlit run app.py  # If using Streamlit for UI</pre>
+2. **Career Assessment**
+   - Answer questions about your interests.
+   - Specify your preferred work style.
+   - Define your career goals.
 
-    <h2>Usage</h2>
-    <ol>
-        <li><strong>Profile Setup</strong>
-            <ul>
-                <li>Complete your personal profile</li>
-                <li>Share your educational background</li>
-                <li>Describe your technical experience</li>
-            </ul>
-        </li>
-        <li><strong>Career Assessment</strong>
-            <ul>
-                <li>Answer questions about your interests</li>
-                <li>Specify your preferred work style</li>
-                <li>Define your career goals</li>
-            </ul>
-        </li>
-        <li><strong>Career Recommendations</strong>
-            <ul>
-                <li>Receive AI-generated career path suggestions</li>
-                <li>View detailed information about each career option</li>
-                <li>Understand the reasoning behind recommendations</li>
-            </ul>
-        </li>
-        <li><strong>Learning Roadmap</strong>
-            <ul>
-                <li>Get a personalized learning path</li>
-                <li>Access structured curriculum recommendations</li>
-                <li>Track your progress</li>
-            </ul>
-        </li>
-        <li><strong>Live AI Consultation</strong>
-            <ul>
-                <li>Ask career-related questions</li>
-                <li>Receive real-time guidance</li>
-                <li>Get personalized advice</li>
-            </ul>
-        </li>
-    </ol>
+3. **Career Recommendations**
+   - Receive AI-generated career path suggestions.
+   - View detailed information about each career option.
+   - Understand the reasoning behind recommendations.
 
-    <h2>Contributing</h2>
-    <p>Contributions are welcome! Please feel free to submit a Pull Request.</p>
+4. **Learning Roadmap**
+   - Get a personalized learning path.
+   - Access structured curriculum recommendations.
+   - Track your progress.
 
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
+5. **Live AI Consultation**
+   - Ask career-related questions.
+   - Receive real-time guidance.
+   - Get personalized advice.
 
-    <h2>Acknowledgments</h2>
-    <ul>
-        <li>WsCube Tech for the platform support</li>
-        <li>Google's Gemini-Pro AI for powering the career guidance system</li>
-        <li>Streamlit for the interactive web interface</li>
-    </ul>
-</body>
-</html>
+## Contributing
+We welcome contributions! Feel free to fork this repository and submit pull requests with enhancements and bug fixes.
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+- **WsCube Tech** for platform support.
+- **Google's Gemini-Pro AI** for powering the career guidance system.
+- **Streamlit** for the interactive web interface.
