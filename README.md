@@ -3,6 +3,8 @@
 ## Overview
 Career Compass is an AI-powered Career Mapping Tool designed to assist undergraduate tech students in exploring and identifying the right career path through an engaging and interactive platform.
 
+**Disclaimer** : The chatbot and the web project are not integrated as of now. These are two individual projects
+
 ## Features
 ### 1. AI-Powered Career Guidance
 - Live AI video consultations
